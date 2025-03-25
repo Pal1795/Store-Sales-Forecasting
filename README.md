@@ -22,7 +22,7 @@ Our motivation for this project includes:
 
 **Dataset Description**
 
-We have used five datasets to train and evaluate our forecasting model:
+Used five datasets to train and evaluate our forecasting model:
 
 - Stores Data – Provides details about each store, including city, state, type, and cluster classification.
 
@@ -36,7 +36,7 @@ We have used five datasets to train and evaluate our forecasting model:
 
 **Model Selection**
 
-We are using the Random Forest Regressor for store sales forecasting. This model is chosen due to its:
+By using the Random Forest Regressor for store sales forecasting. This model is chosen due to its:
 
 - Effectiveness in complex regression tasks
 
@@ -48,7 +48,7 @@ We are using the Random Forest Regressor for store sales forecasting. This model
 
 **Data Preparation & Feature Engineering**
 
-To convert the time series data into a supervised learning problem, we:
+To convert the time series data into a supervised learning problem:
 
 - Merged the oil price, holidays, and stores data with historical sales records.
 
@@ -60,7 +60,7 @@ To convert the time series data into a supervised learning problem, we:
 
 **Model Evaluation**
 
-We use Root Mean Squared Log Error (RMSLE) as our evaluation metric because:
+Used Root Mean Squared Log Error (RMSLE) as our evaluation metric because:
 
 - It is scale-invariant, making it independent of the target variable's scale.
 
@@ -82,8 +82,8 @@ While RMSE is a common regression metric, RMSLE is preferred because:
 
 - Minimal Impact of Normalization/Standardization – Random Forest performed well without extensive scaling.
 
-- Iterative Modeling Approach – We improved model accuracy by continuously refining feature selection and training strategies.
+- Iterative Modeling Approach – improved model accuracy by continuously refining feature selection and training strategies.
 
 **Conclusion**
 
-This project demonstrates how machine learning can effectively forecast store sales. By integrating diverse datasets and using Random Forest Regressor, we have achieved a model that is robust, interpretable, and practical for real-world applications.
+This project demonstrates how machine learning can effectively forecast store sales. By integrating diverse datasets and using Random Forest Regressor I was able achieve a model that is robust, interpretable, and practical for real-world applications.
