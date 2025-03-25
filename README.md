@@ -6,7 +6,7 @@
 
 **Motivation**
 
-Our motivation for this project includes:
+Main motivation for this project includes:
 
 - Decision Making – Enabling data-driven decisions for store operations.
 
